@@ -1,0 +1,14 @@
+INFO:root:Creating a logging session
+INFO:root:Acquiring moDir from session
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.23.248.85:443
+DEBUG:urllib3.connectionpool:https://10.23.248.85:443 "POST /api/aaaLogin.json HTTP/1.1" 200 4493
+INFO:root:Login Success
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): 10.23.248.85:443
+DEBUG:urllib3.connectionpool:https://10.23.248.85:443 "GET /api/mo/uni.xml HTTP/1.1" 200 282
+INFO:root:Passing in tenant information
+INFO:root:Creation of Tenant
+INFO:root:Config request of tenants
+DEBUG:urllib3.connectionpool:https://10.23.248.85:443 "POST /api/mo/uni.xml HTTP/1.1" 200 70
+INFO:root:Config request complete
+INFO:root:Logout Success
+INFO:root:Process Completed
